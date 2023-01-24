@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(93, 172, 223);
+}
+
+#parallax {
+    height: 1530px;
+    width: auto;
+    position: relative;
+}
+
+.layer {
+    background-position: bottom center;
+    background-size: auto 1530px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1530px;
+    position: absolute;
+    z-index: 10;
+}
+
+#layer-title {
+    background-image: url('media/images/stantor_logo.png');
+    background-size: auto 20%;
+    background-position: center top;
+}
+
+#layer-contact {
+    background-position: center center;
+}
+
+#layer-content {
+    background-image: url('media/images/bg/5-lake.png');
+}
+
+#layer-1 {
+    background-image: url('media/images/bg/1-background.png');
+}
+
+#layer-2 {
+    background-image: url('media/images/bg/2-mountains.png');
+}
+
+#layer-3 {
+    background-image: url('media/images/bg/3-mountains.png');
+}
+
+#layer-4 {
+    background-image: url('media/images/bg/4-hills.png');
+}
+
+#layer-5 {
+    background-image: url('media/images/bg/5-lake.png');
+}
+
+#layer-6 {
+    background-image: url('media/images/bg/6-hills.png');
+}
